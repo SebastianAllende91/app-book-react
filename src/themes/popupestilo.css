@@ -1,0 +1,66 @@
+.popup{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    /* Subtitle 1 */
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #002563;
+    width: 240px;
+}
+
+.popupMoneda{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    /* Subtitle 1 */
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #002563;
+    width: 240px;
+    height: 146px;
+}
+
+
+.MuiList-padding {
+    padding-top: 0px !important;
+    padding-bottom: 8px;
+} 
+
+.popupConfirmacion div div{
+    width: 498px !important;
+}
+
+.titulo h2{
+    font-family: Titillium Web !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 22px !important;
+line-height: 24px !important;
+
+/* identical to box height, or 109% */
+letter-spacing: 0.18px !important;
+
+/* 01. Primary/900 */
+color: #002563 !important;
+}
+
+.cancelar{
+    /* Button */
+font-family: Titillium Web !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 14px !important;
+line-height: 16px !important;
+/* 02. Secondary/400 */
+color: #5974FB !important;
+text-transform:none !important;
+}

@@ -1,0 +1,3 @@
+export const GET_ALL_SUCCESS = "AUTHOR_GET_ALL_SUCCESS";
+export const GET_AUTHOR = "AUTHOR_GET";
+export const SET_LOADING = "AUTHOR_SET_LOADING";

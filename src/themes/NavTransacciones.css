@@ -1,0 +1,34 @@
+.NavBarTransaccion{    
+    background: #FFFFFF !important;
+}
+
+.NavBarTransaccion .MuiButton-containedSecondary {
+    color: #fff;
+    background-color: #FFFFFF !important;
+}
+
+.NavBarTransaccion .MuiButton-iconSizeMedium > *:first-child {
+    font-size: 35px !important;
+}
+
+.NavBarTransaccion h5{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+    color: #383a3d;
+    margin-top: 4%;
+}
+
+.NavBarTransaccion span{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.5px;
+    color: #383a3d;
+}

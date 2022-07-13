@@ -1,0 +1,677 @@
+.rootCajaCard{
+    background: #FFFFFF; 
+    box-shadow: 0px 5px 10px rgba(0, 37, 99, 0.05);
+    border-radius: 12px;
+    padding: 22px 4px 12px;
+    width: 216px;
+    
+}
+
+.labelInicial{
+font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 13.5px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 0.25px;
+
+/* 01. Primary/900 B */
+
+color: #002563;
+}
+
+.boxLabelIngreso{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.4px !important;
+    padding: 6px 12px !important;
+    position: relative !important;
+    width: 85% !important;
+    left: 10px !important;
+    top: -1px !important;
+    background: #353f50 !important;
+    border-radius: 8px !important;
+    letter-spacing: 0.4px !important;
+    color: white !important;
+    text-align: center;
+}
+
+.btnCompra{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.4px !important;
+    padding: 6px 12px !important;
+    position: relative !important;
+    width: 85% !important;
+    left: 10px !important;
+    top: 20px !important;
+    background: #353f50 !important;
+    letter-spacing: 0.4px !important;
+    color: white !important;
+    text-align: center;
+}
+.labelCaja{
+font-family: Titillium Web;
+font-style: normal;
+font-weight: normal;
+font-size: 13.5px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.25px;
+
+/* 01. Primary/900 B */
+
+color: #002563;
+}
+.labelTotal{
+    font-family: Titillium Web  !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 34px !important;
+    line-height: 36px !important;
+    text-align: center !important;
+    color: #3EBC94 !important;
+}
+
+.labelTotal .MuiInput-input {
+    font-family: Titillium Web  !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 34px !important;
+    line-height: 36px !important;
+    text-align: center !important;
+    color: #3EBC94 !important;
+}
+.gridItemCaja{
+    margin-top:1%;
+}
+.labelTotalCaja{
+    font-family: Titillium Web;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 16px;
+
+/* identical to box height, or 160% */
+
+text-align: center !important;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+
+/* Success */
+
+color: #3EBC94;
+}
+
+.gridItemCaja.MuiGrid-grid-md-12 {
+    text-align: center !important
+}
+
+.cheques{
+    font-family: 'Titillium Web' !important;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.chequesBody{
+    margin-right: 3%; 
+    margin-left: 6%; 
+}
+
+.header{
+    height: 80px;
+}
+
+.headerTitulo{
+    font-weight: bold !important;
+    font-size: 22px !important;
+    line-height: 24px !important;
+    letter-spacing: 0.18px !important;
+    color: #FFFFFF !important;
+}
+
+.headerTituloVenta{
+    font-weight: bold !important;
+    font-size: 22px !important;
+    line-height: 24px !important;
+    letter-spacing: 0.18px !important;
+    color: #5974FB !important;
+}
+
+.bodyResumen {
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+  
+.headerCompra{
+    background-color: #5974FB !important; 
+}
+
+.headerVenta{
+    background-color: #FFFFFF !important; 
+    border-bottom: 1px solid #BFC8E0 !important; 
+}
+
+.btnComprar{
+    border-radius: 4px !important;
+    background: rgba(255, 255, 255, 0.38) !important;
+    border-radius: 4px !important;
+    width: 215px !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.btnVender{
+    border-radius: 4px !important;
+    background: #5974FB !important;
+    border-radius: 4px !important;
+    width: 215px !important;
+    color: #ffffff !important;
+    text-align: center !important;
+}
+
+.btnBorrador{
+    font-weight: bold !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
+    align-items: center !important;
+}
+
+.btnBorradorVenta{
+    font-weight: bold !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    text-align: center !important;
+    color: #5974FB !important;
+    align-items: center !important;
+}
+
+.btnBorradorVenta:hover{
+    font-weight: bold !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    text-align: center !important;
+    color: #5974FB !important;
+    align-items: center !important;
+}
+
+.btnClose{
+    color:white !important;
+}
+
+.btnCloseVenta{
+    color:#5974FB !important;
+}
+
+.tituloPaso{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 22px !important;
+    line-height: 24px !important;
+    letter-spacing: 0.18px !important;
+    color: #002563 !important;
+}
+
+.paso{
+    font-family: Titillium Web  !important;
+    font-style: normal  !important;
+    font-weight: 600  !important;
+    font-size: 10px  !important;
+    line-height: 16px  !important;
+    letter-spacing: 1.5px  !important;
+    text-transform: uppercase  !important;
+    color: #414141  !important;
+}
+
+.paperContainer{
+    box-shadow: 0px 5px 10px rgba(0, 37, 99, 0.05) !important;
+    border-radius: 12px !important;
+    width: 100% !important; 
+    margin-top: 2% !important;  
+    margin-bottom: 2% !important; 
+}
+
+.label{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.4px !important;
+    color: rgba(0, 37, 99, 0.6) !important;
+}
+
+.boxGris{
+    width: 100% !important;
+}
+
+.boxGris div{
+    background: rgba(33, 33, 33, 0.08) !important;
+    border-radius: 12px !important;
+    position: relative !important;
+    top: -12px !important;
+    width: 100% !important;
+}
+
+.boxLabel{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.4px !important;
+    padding: 6px 12px !important;
+    position: relative !important;
+    width: 75% !important;
+    left: 10px !important;
+    top: -1px !important;
+    background: #002563 !important;
+    border-radius: 8px !important;
+    letter-spacing: 0.4px !important;
+    color: white !important;
+}
+
+.pagoWidthText{
+    width: 90% !important;
+}
+
+.paperSinShadow{
+    box-shadow: none !important;
+}
+
+.MuiTableCell-head{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    letter-spacing: 0.25px !important;
+    color: rgba(0, 37, 99, 0.6) !important;
+}
+
+.MuiTableCell-head span button{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    letter-spacing: 0.25px !important;
+    color: rgba(0, 37, 99, 0.6) !important;
+}
+
+.comboSi{
+    background: #EAECFF !important;
+    border-radius: 4px 0px 0px 4px !important;
+    font-family: DM Sans !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    
+    /* identical to box height, or 143% */
+    text-align: center;
+    letter-spacing: 0.25px !important;
+    
+    /* 02. Secondary/400 B */
+    color: #5974FB !important;
+}
+
+.comboNo{
+    background: #5974FB !important;
+    border-radius: 0px 4px 4px 0px !important;
+    font-family: DM Sans !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    text-align: center !important;
+    letter-spacing: 0.5px !important;
+    color: #FFFFFF !important;
+}
+
+.MuiButton-root{
+    text-transform: none !important;
+}
+
+.btnChequesTable{
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.18px !important;
+    color: #FFFFFF !important;
+    height: 40px !important;
+}
+
+.btnDuplicarCheque{
+    background-color: #5974FB !important; 
+    border-radius: 4px !important;
+    border-radius: 4px !important;
+    width: 215px !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.btnNuevoCheque{
+    background-color: #FFFFFF !important; 
+    text-align: center !important;
+    color: #5974FB !important;
+    align-items: center !important;
+}
+
+.boxpago{
+    padding: 4% !important;
+    background: rgba(33, 33, 33, 0.08) !important;
+    border-radius: 12px !important;
+    position: relative !important;
+    top: -12px !important;
+    width: 100% !important;
+}
+
+.saldoActual{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    
+    /* identical to box height, or 112% */
+    letter-spacing: 0.5px !important;
+    
+    /* 00. On Surface / High Emphasis */
+    color: #002563 !important;
+}
+
+.postTransaccion{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    
+    /* identical to box height, or 112% */
+    letter-spacing: 0.5px !important;
+    
+    /* Success */
+    color: #3EBC94 !important;
+}
+
+.resumen{
+    width: 100% !important; 
+    margin-top: 2% !important;
+    margin-bottom: 2% !important; 
+    background-color: #002563 !important; 
+    box-shadow: 0px 5px 10px rgba(0, 37, 99, 0.05) !important; 
+    border-radius: 12px !important; 
+}
+
+.gridResumen{
+    height: 128px !important; 
+}
+
+.divider{
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    width: 95% !important;
+    border: 1px solid #7B8FFD !important; 
+    transform: rotate(-180deg) !important;
+}
+
+.dividerPago{
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    width: 95% !important;
+    border: 1px solid #FFFFFF;
+    transform: rotate(180deg);
+}
+
+.dividerAll{
+    width: 100% !important;
+}
+
+.boxNominal{
+    z-index: 1000;
+}
+
+.tablaVisualizarCompraDiv{
+    margin-top: 4%;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.visualizarDetalleClienteNombre{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    letter-spacing: 0.15px !important;
+    color: #414141 !important;
+}
+
+.dividerNuevo{
+    border: 1px solid #FFFFFF;
+}
+
+.resumenlabel{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    
+    /* identical to box height, or 109% */
+    letter-spacing: 0.18px !important;
+    
+    /* 03. On Primary / High Emphasis */
+    color: #7B8FFD !important;
+}
+
+.pagoTotalLabel{
+    font-family: Titillium Web !important;
+    font-style: normal !important; 
+    font-weight: bold !important;
+    font-size: 22px !important;
+    line-height: 24px !important;
+    
+    /* identical to box height, or 109% */
+    letter-spacing: 0.18px !important;
+    
+    /* 03. On Primary / High Emphasis */
+    color: #FFFFFF !important;
+}
+
+.numerolabel{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 22px !important;
+    line-height: 24px !important;
+    
+    /* identical to box height, or 109% */
+    text-align: right !important;
+    letter-spacing: 0.18px !important;
+    
+    /* Success */
+    color: #3EBC94 !important;
+}
+
+.sumatoria input{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    letter-spacing: 0.5px !important;
+    color: #002563 !important;
+}
+.sumatoria p{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    letter-spacing: 0.5px !important;
+    color: #002563 !important;
+}
+
+.visualizarTitulo{
+font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 24px;
+letter-spacing: 0.18px;
+color: #002563;
+}
+
+.visualizarDate{
+    font-family: Titillium Web;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 16px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+color: #414141;
+padding-left: 2% !important;
+}
+
+.visualizarImprimir{
+    font-family: Titillium Web  !important;
+    font-style: normal  !important;
+    font-weight: 600  !important;
+    font-size: 10px  !important;
+    line-height: 16px  !important;
+    letter-spacing: 1.5px  !important;
+    text-transform: uppercase  !important;
+    color: #414141  !important;
+    padding-right: 2% !important;    
+}
+
+.visualizarDetallepadding{
+    padding: 3%;
+}
+
+.visualizarSubtitulo{
+    font-family: Titillium Web;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 16px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+color: #002563;
+}
+
+.visualizarTituloNum{
+    font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 24px;
+text-align: right;
+letter-spacing: 0.18px;
+color: #3EBC94;
+}
+
+.visualizarDetalleCliente{
+    font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.25px;
+color: #414141;
+}
+
+.visualizarNombreCliente{
+font-weight: normal;
+}
+
+.visualizarDetalleLabel{
+font-family: Titillium Web;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.4px;
+color: #414141;
+margin-top: 1% !important;
+}
+
+.visualizarTable{
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+.margenTopcontainer{
+    margin-top: 2%;
+}
+
+.margenTopcontainer4{
+    margin-top: 4%;
+}
+
+.margenTopcontainer0{
+    margin-top:0px !important;
+}
+
+.paddingResumen{
+    padding:2%;
+}
+
+.paddingResumenInterno{
+    padding:8px;
+}
+
+.MuiInput-underline:before {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "\00a0";
+    position: absolute;
+    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-bottom: 0px solid rgba(0, 0, 0, 0.42) !important;
+    pointer-events: none;
+}
+
+.tablaCompra .MuiTableCell-root{
+    border: 1px solid rgba(224, 224, 224, 1) !important;
+}
+
+.textDiasRestantes{
+font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 16px !important;
+line-height: 18px;
+letter-spacing: 0.5px;
+color: #F5B458;
+}
+
+
+.error{
+    color: #FF4F4F;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    font-family: Titillium Web !important;
+  }
+
+  .alertError{
+    margin-top: 20px !important
+  }

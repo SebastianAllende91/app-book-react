@@ -1,0 +1,4 @@
+export const GET_ALL_SUCCESS = "RENTAL_GET_ALL_SUCCESS";
+export const GET_BOOK = "RENTAL_GET";
+export const SET_LOADING = "RENTAL_SET_LOADING";
+export const ADD_SUCCESS_RENTAL = "ADD_SUCCESS_RENTAL";
